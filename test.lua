@@ -1,12 +1,7 @@
 local count = 1
 
-while (true)
+while (count < 5)
 do
     turtle.forward()
     count = count + 1
-    if(count == 4)
-    then
-        count = 1
-        turtle.turnLeft()
-    end
 end
